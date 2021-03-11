@@ -10,12 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Welcome to the KP Hub")
-            .padding(10)
+            .padding(.top, 40.0)
         Text("Enjoy!")
-            .padding(5)
+            .padding(5.0)
         Text("Here you can find all useful information related to KPs.")
-            .padding([.leading, .bottom, .trailing], 20.0)
+            .padding([.leading, .bottom, .trailing], 10.0)
             .frame(width: 400)
+        Button("Enter KP Hub") {
+            print("Button Listener: enter cicked")
+        }
+        .padding(30.0)
     }
 }
 
@@ -23,4 +27,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+struct signIn {
 }
