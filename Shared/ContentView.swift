@@ -11,8 +11,11 @@ struct ContentView: View {
     var body: some View {
         Text("Welcome to the KP Hub")
             .padding(10)
-        Text("Enjoy")
-            .padding(10)
+        Text("Enjoy!")
+            .padding(5)
+        Text("Here you can find all useful information related to KPs.")
+            .padding([.leading, .bottom, .trailing], 20.0)
+            .frame(width: 400)
     }
 }
 

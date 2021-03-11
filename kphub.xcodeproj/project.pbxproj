@@ -19,9 +19,9 @@
 		4BEEE4D325FA81B800F372AC /* kphubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kphubApp.swift; sourceTree = "<group>"; };
 		4BEEE4D425FA81B800F372AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BEEE4D525FA81B900F372AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BEEE4DA25FA81B900F372AC /* kphub\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kphub\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEEE4DA25FA81B900F372AC /* kphubhub\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kphubhub\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEEE4DD25FA81B900F372AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BEEE4E225FA81B900F372AC /* kphub\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kphub\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEEE4E225FA81B900F372AC /* kphubhub\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kphubhub\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEEE4E425FA81B900F372AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BEEE4E525FA81B900F372AC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +67,8 @@
 		4BEEE4DB25FA81B900F372AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BEEE4DA25FA81B900F372AC /* kphub\.app */,
-				4BEEE4E225FA81B900F372AC /* kphub\.app */,
+				4BEEE4DA25FA81B900F372AC /* kphubhub\.app */,
+				4BEEE4E225FA81B900F372AC /* kphubhub\.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BEEE4D925FA81B900F372AC /* kphub\ (iOS) */ = {
+		4BEEE4D925FA81B900F372AC /* kphubhub\ (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BEEE4EE25FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphub\ (iOS)" */;
+			buildConfigurationList = 4BEEE4EE25FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphubhub\ (iOS)" */;
 			buildPhases = (
 				4BEEE4D625FA81B900F372AC /* Sources */,
 				4BEEE4D725FA81B900F372AC /* Frameworks */,
@@ -105,14 +105,14 @@
 			);
 			dependencies = (
 			);
-			name = "kphub\\ (iOS)";
+			name = "kphubhub\\ (iOS)";
 			productName = "kphub (iOS)";
-			productReference = 4BEEE4DA25FA81B900F372AC /* kphub\.app */;
+			productReference = 4BEEE4DA25FA81B900F372AC /* kphubhub\.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4BEEE4E125FA81B900F372AC /* kphub\ (macOS) */ = {
+		4BEEE4E125FA81B900F372AC /* kphubhub\ (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BEEE4F125FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphub\ (macOS)" */;
+			buildConfigurationList = 4BEEE4F125FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphubhub\ (macOS)" */;
 			buildPhases = (
 				4BEEE4DE25FA81B900F372AC /* Sources */,
 				4BEEE4DF25FA81B900F372AC /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = "kphub\\ (macOS)";
+			name = "kphubhub\\ (macOS)";
 			productName = "kphub (macOS)";
-			productReference = 4BEEE4E225FA81B900F372AC /* kphub\.app */;
+			productReference = 4BEEE4E225FA81B900F372AC /* kphubhub\.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4BEEE4D125FA81B800F372AC /* Build configuration list for PBXProject "kp" */;
+			buildConfigurationList = 4BEEE4D125FA81B800F372AC /* Build configuration list for PBXProject "kphub" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,8 +157,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BEEE4D925FA81B900F372AC /* kphub\ (iOS) */,
-				4BEEE4E125FA81B900F372AC /* kphub\ (macOS) */,
+				4BEEE4D925FA81B900F372AC /* kphubhub\ (iOS) */,
+				4BEEE4E125FA81B900F372AC /* kphubhub\ (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.makeouthill.kphub;
-				PRODUCT_NAME = "kphub\\";
+				PRODUCT_NAME = "kphubhub\\";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -352,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.makeouthill.kphub;
-				PRODUCT_NAME = "kphub\\";
+				PRODUCT_NAME = "kphubhub\\";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,7 +378,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.makeouthill.kphub;
-				PRODUCT_NAME = "kphub\\";
+				PRODUCT_NAME = "kphubhub\\";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -402,7 +402,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.makeouthill.kphub;
-				PRODUCT_NAME = "kphub\\";
+				PRODUCT_NAME = "kphubhub\\";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -411,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BEEE4D125FA81B800F372AC /* Build configuration list for PBXProject "kp" */ = {
+		4BEEE4D125FA81B800F372AC /* Build configuration list for PBXProject "kphub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BEEE4EC25FA81B900F372AC /* Debug */,
@@ -420,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BEEE4EE25FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphub\ (iOS)" */ = {
+		4BEEE4EE25FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphubhub\ (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BEEE4EF25FA81B900F372AC /* Debug */,
@@ -429,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BEEE4F125FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphub\ (macOS)" */ = {
+		4BEEE4F125FA81B900F372AC /* Build configuration list for PBXNativeTarget "kphubhub\ (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BEEE4F225FA81B900F372AC /* Debug */,
