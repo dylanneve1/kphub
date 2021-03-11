@@ -15,11 +15,11 @@ struct ContentView: View {
             .padding(5.0)
         Text("Here you can find all useful information related to KPs.")
             .padding([.leading, .bottom, .trailing], 10.0)
-            .frame(width: 400)
         Button("Enter KP Hub") {
             print("Button Listener: enter cicked")
         }
-        .padding(30.0)
+        Text("© MAKEOUTHILL 2021")
+            .padding(.vertical, 30.0)
     }
 }
 
